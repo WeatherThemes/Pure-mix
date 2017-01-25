@@ -1,11 +1,12 @@
 
+jQuery(document).ready(function(){
  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets    
 });
 
-
+});
  /* Google Map
 -----------------------------------------------*/
 var map = '';
@@ -40,14 +41,17 @@ function loadGoogleMap(){
     document.body.appendChild(script);
 }
 
+
+jQuery(document).ready(function($){
 $(function(){
   loadGoogleMap();
+});
 });
 
 
 /* Istope Portfolio
 -----------------------------------------------*/
-jQuery(document).ready(function($){
+jQuery(document).ready(function(){
 
   if ( $('.iso-box-wrapper').length > 0 ) { 
 
@@ -102,6 +106,7 @@ jQuery(document).ready(function($){
 
  /* Navigation Bar
   -----------------------------------------------*/
+jQuery(document).ready(function(){
 $(document).ready(function() { 
     "use strict";
 
@@ -139,8 +144,9 @@ $(document).ready(function() {
     })();
 
 });
+});
 
-
+jQuery(document).ready(function(){
 $(document).ready(function(){
             
     "use strict";
@@ -167,3 +173,4 @@ $(document).ready(function(){
 
   });
 
+});

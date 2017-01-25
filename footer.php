@@ -17,7 +17,6 @@
 			
 		</div>
 	</div>
-	<?php wp_footer(); ?>
 </footer>
 
 
@@ -29,6 +28,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/wow.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script>
-
+<?php wp_footer(); ?>
 </body>
 </html>
